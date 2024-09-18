@@ -18,11 +18,9 @@ public class ST10439739_PROGR_PART1 {
         // Keep asking for valid account creation details using a while loop
         boolean isAccountCreated = false;
 
-        System.out.println("Create an account:");
+        System.out.println("Create an account");
 
-        while (!isAccountCreated) {
-            System.out.print("Please try again!");
-            
+        while (!isAccountCreated) { 
             System.out.print("Enter username: ");
             username = scanner.nextLine();
             
